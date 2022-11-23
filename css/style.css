@@ -8,6 +8,7 @@ body {
 section {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -30,8 +31,12 @@ section {
   background-color: black;
   color: white;
 }
-#footer {
+#pieddepage {
   background-color: red;
+  
+}
+#tableau {
+  background-color: rgb(174, 243, 214);
   
 }
 h1 {
@@ -51,7 +56,7 @@ nav {
   justify-content: center;
   background-color: black;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 1rem 0 1rem 0;
 }
 nav a {
