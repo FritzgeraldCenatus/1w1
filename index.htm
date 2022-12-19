@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tp2-etape-1</title>
+    <title>tp2-Fritzgerald Cenatus</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/galerie.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -24,47 +28,256 @@
       <h3>Auteur: Fritzgerald Cenatus</h3>
       <p>
         1W1-Mise en page Web- technique d'intégration multimédia - Collège de
-        Maisonneuve
+        Maisonneuve - Automne 2022
       </p>
     </section>
     <section id="inscription">
       <h1>Inscription</h1>
+
+      <form class="formulaire">
+        <label for="txt_prenom"> Votre prénom</label>
+        <input type="text" name="txt_prenom" id="txt_prenom" />
+        <label for="txt_nom"> Votre nom</label>
+        <input type="text" name="txt_nom" id="txt_nom" />
+        <label for="txt_courriel"> Votre courriel</label>
+        <input type="text" name="txt_courriel" id="txt_courriel" />
+        <label for="txt_telephone"> Votre téléphone</label>
+        <input type="text" name="txt_telephone" id="txt_telephone" />
+        <label for="txt_motDePasse"> Mot de passe</label>
+        <input type="text" name="txt_motDePasse" id="txt_motDePasse" />
+        <div class="Favori">
+          <p>
+            Identifiez votre type de jeu faovri entre les jeux d'aventure ou Fps
+          </p>
+          <label for="chk-fps">Fps</label>
+          <input type="checkbox" name="" id="chk-fps" />
+          <label for="chk-aventure">Aventure</label>
+          <input type="checkbox" name="" id="chk-aventure" />
+        </div>
+        <div>
+        <p>
+          Cochez pour envoyer votre formulaire
+        </p>
+        <label for="chk-envoyez">Envoyez</label>
+        <input type="checkbox" name="" id="chk-envoyez" />
+        </div>
+      </form>
     </section>
+    <!-- /////////////////////////////////////////////////////////////////////////// Galerie/////////////-->
     <section id="galerie">
       <h1>Galerie</h1>
+      <figure class="fig_galerie">
+        <figure>
+          <img src="images/villa.JPG" alt="villa" />
+          <figcaption>Villa</figcaption>
+        </figure>
+        <figure>
+          <img src="images/clubHouse.PNG" alt="clubHouse" />
+          <figcaption>ClubHouse</figcaption>
+        </figure>
+        <figure>
+          <img src="images/zofia.JPG" alt="villa" />
+          <figcaption>Villa</figcaption>
+        </figure>
+        <figure>
+          <img src="images/melusi1.jpg" alt="melusi" />
+          <figcaption>Melusi</figcaption>
+        </figure>
+        <figure>
+          <img src="images/ash.jpg" alt="ash" />
+          <figcaption>Ash</figcaption>
+        </figure>
+        <figure>
+          <img src="images/smoke.jpg" alt="smoke" />
+          <figcaption>Smoke</figcaption>
+        </figure>
+        <figure>
+          <img src="images/bank.jpg" alt="bank" />
+          <figcaption>Bank</figcaption>
+        </figure>
+      </figure>
     </section>
     <section id="tableau">
+      <!-- /////////////////////////////////////////////////////////////////////////// Tableau/////////////-->
       <h1>Tableau</h1>
       <!--  table>(tr>(td>lorem2)*3)*4-->
-      <table>
+      <table class="mon_tableau">
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Sunt, fuga?</td>
-          <td>Dolorum, quis?</td>
+          <th>Heure</th>
+          <th>Date</th>
+          <th>Endroit</th>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Suscipit, minima.</td>
-          <td>Ut, nostrum.</td>
+          <td>18h30</td>
+          <td>6 Janvier 2023</td>
+          <td>Collège Montmorency</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Doloribus, perferendis!</td>
-          <td>Delectus, ab.</td>
+          <td>19h00</td>
+          <td>13 Janvier 2023</td>
+          <td>Collège Maisonneuve</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Sed, nesciunt.</td>
-          <td>Aut, laborum!</td>
+          <td>19h30</td>
+          <td>20 Janvier 2023</td>
+          <td>Collège Ahuntsic</td>
+        </tr>
+        <tr>
+          <td>20h30</td>
+          <td>27 Janvier 2023</td>
+          <td>Collège Bois-de-Boulogne</td>
         </tr>
       </table>
     </section>
     <section id="evenement">
       <h1>Événement</h1>
+      <article class="principal">
+        <section>
+          <h1>Benjamaster - Heroic  6-13 Jan 2023</h1>
+          <p>Benjamin "Benjamaster2k" Dereli yesterday announced his intention to leave Heroic after the EUL Finals on Dec. 16 and 17.
+            The move will mark 15 months on the team for him, after he got his top-flight debut with this team when it was playing under cowana Gaming. He then continued on with the team when it signed with Heroic at the start of the 2022 season.
+            With Heroic, Benjamaster managed qualification to the Charlotte Major and Jönköping Major in 2022, with the former coming after an impressive first place finish in Stage 1 of the EUL. He will also find a chance to win his first piece of silverware with the EUL Finals in two days, with his team up against Jönköping Major champions Team BDS in the semi-final.
+            The young Dane was the best player for Heroic in Stage 3, finishing the EUL stage as the fifth-best player by SiegeGG Rating and with the fourth-highest overall K-D and second-highest Entry K-D.
+            This followed similar form in Stage 2, where he was the seventh-best player in the EUL, and Stage 1, when he was the eighth-best player. This consistency was seen as early as his debut EUL stage last year, when he was the 10th-best player by SiegeGG Rating in Stage 3.</p>
+        </section>
+        <figure>
+          <img src="images/Benjamaster.jpg" alt="Benjamaster2k" />
+          <figcaption>Benjamaster2k</figcaption>
+        </figure>
+        <section>
+          <h1>Hyper And Ecl9pse - DZ  20 Janvier 2023</h1>
+          <p>After joining DZ in May 2019 to replace Sam "Jarvis" Jarvis, Hyper's addition to the DZ squad immediately led to success with the team finishing the subsequent ESL Pro League Season 10 Finals in second place. Following this tournament, DZ said goodbye to Zachary "Nyx" Thomas and Alexander "Skys" Magor and welcomed Ecl9pse to the team. Ecl9pse had previously played at two Six Invitationals, two Six Majors, and two Pro League Finals for the American Rogue roster. In the years since all three of Hyper and Ecl9pse's teammates have changed as the team continued hunting for their first global title. DarkZero won the August 2020 Regional Major and the organization reached nine global events in a row before finally winning the Six Charlotte Major. Following this DZ narrowly missed out on both the Berlin and Jonkoping Majors as they ended the NA League stages in fifth place. During Stage 3, Hyper took an "extended break" from DZ and was replaced by a returning Skys. He more recently stood in on Mirage during the Six Invitational open qualifiers. Now both he and Ecl9pse have left the organization leaving DZ with spaces to fill before their 2023 Six Invitational appearance in two months' time. It is currently unclear if Skys will remain with DZ to fill one of those spots.</p>
+          <figure>
+            <img src="images/hyper.jpg" alt="Hyper and Ecl9pse" />
+            <figcaption>Benjamaster2k</figcaption>
+          </figure>
+        </section>
+        <section>
+          <h1>Shaiiko Mvp  27 Janvier 2023</h1>
+          <p>After an incredible run through the past six days that culminated in a 3-2 grand-final win, Stéphane "Shaiiko" Lebleu is SiegeGG’s Most Valuable Player of the Jönköping Major. The legendary Frenchman barely even made it to the playoff stage after failing to beat FURY on the final day by a large enough margin. The relief on his face was visible when it was revealed his team had made it through, especially since his underperformance in the six BO1 games had been a key reason BDS found themselves in trouble.However, that seemed to galvanise Shaiiko. After the one-day break, he roared back in the form that we have come to expect from him -- the form that has given him over 100 kills in multiple stages of EUL play.His contributions were incredibly powerful in the 2-0 quarter-final win against Wolves Esports, where he was the best player with a SiegeGG Rating of 1.38, a plus 13 K-D, and a plus four entry. He was also vital in the 2-1 win over Soniqs in the semi-final, with a SiegeGG Rating of 1.12.In the grand-final, Shaiiko had a SiegeGG Rating of 1.30 -- an incredible figure against the titans that are Team Liquid. He had a mind-boggling plus 22 K-D and a plus six entry in the match and was undoubtedly one of the key reasons for BDS's title win.</p>
+          <figure>
+            <img src="images/shaiko.jpg" alt="Shaiiko" />
+            <figcaption>Benjamaster2k</figcaption>
+          </figure>
+        </section>
+      </article>
     </section>
     <section id="video">
       <h1>Vidéo</h1>
+      <div class="youtube">
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/qnQNT51Etd4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/CFfinoZdQsg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/BbascBQASmU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/lCODJl6u5GI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </section>
-    <section id="pieddepage"><h1>Pied de page</h1></section>
+    <section id="pieddepage"><h1>Pied de page</h1>
+      <section class="footer__dl">
+        <dl>
+          <dt>Collège Maisonneuve</dt>
+          <dd>3800 R. Sherbrooke E,</dd>
+          <dd>Montréal, QC H1X 2A2</dd>
+          <dd>(514) 254-7131</dd>
+        </dl>
+        <dl>
+          <dt>Liens Importants</dt>
+          <dd>SiegeGG.com</dd>
+          <dd>Youtube.com</dd>
+          <dd>Google Images.com</dd>
+        </dl>
+        <dl>
+          <dt>Description du département</dt>
+          <dd>Integration multimédia</dd>
+          <dd>Jeux</dd>
+          <dd>Montage / Site Web</dd>
+        </dl>
+      </section>
+      <!-- fin section -->
+
+      <section class="util">
+        <div class="sociaux">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=facebook&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=github&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=instagram&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=messenger&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=paypal&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=twitter&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=youtube&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=wikipedia&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+        </div>
+        <p>Avis de confidentialité | Privacy Notice</p>
+        </section>
   </body>
 </html>

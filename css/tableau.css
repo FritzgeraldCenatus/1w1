@@ -1,0 +1,23 @@
+.mon_tableau {
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+  /*Transition*/
+  background-color: blue;
+  transition: background-color 2s 2s;
+}
+.mon_tableau:hover{
+  background-color: greenyellow;
+}
+.mon_tableau td,
+.mon_tableau th {
+  border: 1px solid rgb(234, 12, 12);
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.mon_tableau th {
+  font-size: 1.1rem;
+  /*Pour rendre le fond plus foncé*/
+  background-color: rgba(0, 0, 0, 0.1);
+  /*Pour rendre plus pale
+  background-color: rgba(255, 255, 255, 0.1);*/
+}

@@ -1,0 +1,27 @@
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formulaire label {
+  margin: 10px 0 0 0;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+.formulaire label,
+.formulaire input[text] {
+  padding: 2px;
+  width: 200px;
+}
+/* Ne saplique que sur <input type = "checkbox">*/
+.formulaire input[chekbox] {
+  padding: 2px;
+  width: 200px;
+}
+.Favori label {
+  padding: 10px;
+}
+.Favori {
+  padding: 10px 0;
+}
